@@ -1,0 +1,12 @@
+name: scattering-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - scipy
+  - matplotlib
+  - pip
+  - pip:
+      - git+https://github.com/yourusername/scattering-theory.git
